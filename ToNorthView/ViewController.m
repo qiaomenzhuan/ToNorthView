@@ -61,7 +61,7 @@
         float w = SCREEN_WIDTH;
         _thirdView = [[YLToNorthView alloc] initWithFrame:CGRectMake((SCREEN_WIDTH - w)/2, 300, w, 50)];
         _thirdView.backgroundColor = [UIColor clearColor];
-        _thirdView.degr(30).cali(w/10).creat();
+        _thirdView.degr(30).cali(w/12).creat();
         [self.view addSubview:_thirdView];
     }
     return _thirdView;
