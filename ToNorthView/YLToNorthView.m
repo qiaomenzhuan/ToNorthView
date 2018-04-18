@@ -31,6 +31,8 @@
 - (void)subViews
 {
     self.myScrollView = [[UIScrollView alloc] initWithFrame:self.bounds];
+    self.myScrollView.showsHorizontalScrollIndicator = NO;
+    self.myScrollView.userInteractionEnabled = NO;
     [self addSubview:self.myScrollView];
     
     UIImageView *viewline = [[UIImageView alloc] initWithFrame:CGRectMake((self.frame.size.width - 10)/2, 0,10, 10)];
